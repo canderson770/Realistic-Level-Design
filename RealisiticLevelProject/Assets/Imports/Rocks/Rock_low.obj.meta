@@ -1,0 +1,119 @@
+fileFormatVersion: 2
+guid: 7674369102b7cfa4a89dd39ccf2e1f07
+timeCreated: 1512063623
+licenseType: Free
+ModelImporter:
+  serializedVersion: 21
+  fileIDToRecycleName:
+    100000: Cliff_06_low_Cliff_05
+    100002: Cliff_07_low_Cliff_7
+    100004: Pillar_07_low_Pillar_07
+    100006: Rock_011_low_Rock_11
+    100008: Rock_06_low_Rock_6
+    100010: Rock_09_low_Rock_09
+    100012: Rock_10_low_Rock_10
+    100014: //RootNode
+    400000: Cliff_06_low_Cliff_05
+    400002: Cliff_07_low_Cliff_7
+    400004: Pillar_07_low_Pillar_07
+    400006: Rock_011_low_Rock_11
+    400008: Rock_06_low_Rock_6
+    400010: Rock_09_low_Rock_09
+    400012: Rock_10_low_Rock_10
+    400014: //RootNode
+    2300000: Cliff_06_low_Cliff_05
+    2300002: Cliff_07_low_Cliff_7
+    2300004: Pillar_07_low_Pillar_07
+    2300006: Rock_011_low_Rock_11
+    2300008: Rock_06_low_Rock_6
+    2300010: Rock_09_low_Rock_09
+    2300012: Rock_10_low_Rock_10
+    3300000: Cliff_06_low_Cliff_05
+    3300002: Cliff_07_low_Cliff_7
+    3300004: Pillar_07_low_Pillar_07
+    3300006: Rock_011_low_Rock_11
+    3300008: Rock_06_low_Rock_6
+    3300010: Rock_09_low_Rock_09
+    3300012: Rock_10_low_Rock_10
+    4300000: Cliff_06_low_Cliff_05
+    4300002: Cliff_07_low_Cliff_7
+    4300004: Pillar_07_low_Pillar_07
+    4300006: Rock_011_low_Rock_11
+    4300008: Rock_06_low_Rock_6
+    4300010: Rock_09_low_Rock_09
+    4300012: Rock_10_low_Rock_10
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

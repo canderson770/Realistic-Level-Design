@@ -1,0 +1,247 @@
+fileFormatVersion: 2
+guid: edace3f188341e74baf4b2c4ca27a522
+timeCreated: 1520883260
+licenseType: Pro
+ModelImporter:
+  serializedVersion: 21
+  fileIDToRecycleName:
+    100000: moutain_LowPoly
+    100002: moutain_LowPoly__10_
+    100004: moutain_LowPoly__11_
+    100006: moutain_LowPoly__12_
+    100008: moutain_LowPoly__13_
+    100010: moutain_LowPoly__14_
+    100012: moutain_LowPoly__15_
+    100014: moutain_LowPoly__16_
+    100016: moutain_LowPoly__17_
+    100018: moutain_LowPoly__18_
+    100020: moutain_LowPoly__19_
+    100022: moutain_LowPoly__1_
+    100024: moutain_LowPoly__20_
+    100026: moutain_LowPoly__21_
+    100028: moutain_LowPoly__22_
+    100030: moutain_LowPoly__23_
+    100032: moutain_LowPoly__24_
+    100034: moutain_LowPoly__25_
+    100036: moutain_LowPoly__26_
+    100038: moutain_LowPoly__27_
+    100040: moutain_LowPoly__28_
+    100042: moutain_LowPoly__29_
+    100044: moutain_LowPoly__2_
+    100046: moutain_LowPoly__30_
+    100048: moutain_LowPoly__31_
+    100050: moutain_LowPoly__3_
+    100052: moutain_LowPoly__4_
+    100054: moutain_LowPoly__5_
+    100056: moutain_LowPoly__6_
+    100058: moutain_LowPoly__7_
+    100060: moutain_LowPoly__8_
+    100062: moutain_LowPoly__9_
+    100064: //RootNode
+    400000: moutain_LowPoly
+    400002: moutain_LowPoly__10_
+    400004: moutain_LowPoly__11_
+    400006: moutain_LowPoly__12_
+    400008: moutain_LowPoly__13_
+    400010: moutain_LowPoly__14_
+    400012: moutain_LowPoly__15_
+    400014: moutain_LowPoly__16_
+    400016: moutain_LowPoly__17_
+    400018: moutain_LowPoly__18_
+    400020: moutain_LowPoly__19_
+    400022: moutain_LowPoly__1_
+    400024: moutain_LowPoly__20_
+    400026: moutain_LowPoly__21_
+    400028: moutain_LowPoly__22_
+    400030: moutain_LowPoly__23_
+    400032: moutain_LowPoly__24_
+    400034: moutain_LowPoly__25_
+    400036: moutain_LowPoly__26_
+    400038: moutain_LowPoly__27_
+    400040: moutain_LowPoly__28_
+    400042: moutain_LowPoly__29_
+    400044: moutain_LowPoly__2_
+    400046: moutain_LowPoly__30_
+    400048: moutain_LowPoly__31_
+    400050: moutain_LowPoly__3_
+    400052: moutain_LowPoly__4_
+    400054: moutain_LowPoly__5_
+    400056: moutain_LowPoly__6_
+    400058: moutain_LowPoly__7_
+    400060: moutain_LowPoly__8_
+    400062: moutain_LowPoly__9_
+    400064: //RootNode
+    2300000: moutain_LowPoly
+    2300002: moutain_LowPoly__10_
+    2300004: moutain_LowPoly__11_
+    2300006: moutain_LowPoly__12_
+    2300008: moutain_LowPoly__13_
+    2300010: moutain_LowPoly__14_
+    2300012: moutain_LowPoly__15_
+    2300014: moutain_LowPoly__16_
+    2300016: moutain_LowPoly__17_
+    2300018: moutain_LowPoly__18_
+    2300020: moutain_LowPoly__19_
+    2300022: moutain_LowPoly__1_
+    2300024: moutain_LowPoly__20_
+    2300026: moutain_LowPoly__21_
+    2300028: moutain_LowPoly__22_
+    2300030: moutain_LowPoly__23_
+    2300032: moutain_LowPoly__24_
+    2300034: moutain_LowPoly__25_
+    2300036: moutain_LowPoly__26_
+    2300038: moutain_LowPoly__27_
+    2300040: moutain_LowPoly__28_
+    2300042: moutain_LowPoly__29_
+    2300044: moutain_LowPoly__2_
+    2300046: moutain_LowPoly__30_
+    2300048: moutain_LowPoly__31_
+    2300050: moutain_LowPoly__3_
+    2300052: moutain_LowPoly__4_
+    2300054: moutain_LowPoly__5_
+    2300056: moutain_LowPoly__6_
+    2300058: moutain_LowPoly__7_
+    2300060: moutain_LowPoly__8_
+    2300062: moutain_LowPoly__9_
+    2300064: //RootNode
+    3300000: moutain_LowPoly
+    3300002: moutain_LowPoly__10_
+    3300004: moutain_LowPoly__11_
+    3300006: moutain_LowPoly__12_
+    3300008: moutain_LowPoly__13_
+    3300010: moutain_LowPoly__14_
+    3300012: moutain_LowPoly__15_
+    3300014: moutain_LowPoly__16_
+    3300016: moutain_LowPoly__17_
+    3300018: moutain_LowPoly__18_
+    3300020: moutain_LowPoly__19_
+    3300022: moutain_LowPoly__1_
+    3300024: moutain_LowPoly__20_
+    3300026: moutain_LowPoly__21_
+    3300028: moutain_LowPoly__22_
+    3300030: moutain_LowPoly__23_
+    3300032: moutain_LowPoly__24_
+    3300034: moutain_LowPoly__25_
+    3300036: moutain_LowPoly__26_
+    3300038: moutain_LowPoly__27_
+    3300040: moutain_LowPoly__28_
+    3300042: moutain_LowPoly__29_
+    3300044: moutain_LowPoly__2_
+    3300046: moutain_LowPoly__30_
+    3300048: moutain_LowPoly__31_
+    3300050: moutain_LowPoly__3_
+    3300052: moutain_LowPoly__4_
+    3300054: moutain_LowPoly__5_
+    3300056: moutain_LowPoly__6_
+    3300058: moutain_LowPoly__7_
+    3300060: moutain_LowPoly__8_
+    3300062: moutain_LowPoly__9_
+    3300064: //RootNode
+    4300000: Snow_background
+    4300002: moutain_LowPoly
+    4300004: moutain_LowPoly__1_
+    4300006: moutain_LowPoly__2_
+    4300008: moutain_LowPoly__3_
+    4300010: moutain_LowPoly__4_
+    4300012: moutain_LowPoly__5_
+    4300014: moutain_LowPoly__6_
+    4300016: moutain_LowPoly__7_
+    4300018: moutain_LowPoly__8_
+    4300020: moutain_LowPoly__9_
+    4300022: moutain_LowPoly__10_
+    4300024: moutain_LowPoly__11_
+    4300026: moutain_LowPoly__12_
+    4300028: moutain_LowPoly__13_
+    4300030: moutain_LowPoly__14_
+    4300032: moutain_LowPoly__15_
+    4300034: moutain_LowPoly__16_
+    4300036: moutain_LowPoly__17_
+    4300038: moutain_LowPoly__18_
+    4300040: moutain_LowPoly__19_
+    4300042: moutain_LowPoly__20_
+    4300044: moutain_LowPoly__21_
+    4300046: moutain_LowPoly__22_
+    4300048: moutain_LowPoly__23_
+    4300050: moutain_LowPoly__24_
+    4300052: moutain_LowPoly__25_
+    4300054: moutain_LowPoly__26_
+    4300056: moutain_LowPoly__27_
+    4300058: moutain_LowPoly__28_
+    4300060: moutain_LowPoly__29_
+    4300062: moutain_LowPoly__30_
+    4300064: moutain_LowPoly__31_
+  materials:
+    importMaterials: 0
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 30
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 0
+    importBlendShapes: 1
+    importCameras: 0
+    importLights: 0
+    swapUVChannels: 0
+    generateSecondaryUV: 1
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 0
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
