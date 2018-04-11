@@ -14,8 +14,8 @@ Shader "Cody/BestSnow"
         _LayerStrength ("Snow Amount", Range(0, 1)) = 0
         _LayerDirection ("Snow Direction", Vector) = (0, 1, 0)
 //        _LayerDepth ("Layer Depth", Range(0, 0.005)) = 0.0005
-		_MinHeight ("Min Height", float) = 0
-		_MaxHeight ("Max Height", float) = 0
+//		_MinHeight ("Min Height", float) = 0
+//		_MaxHeight ("Max Height", float) = 0
 
     }
    
@@ -37,8 +37,8 @@ Shader "Cody/BestSnow"
         float _LayerStrength;
         float3 _LayerDirection;
         float _LayerDepth;
-        float _MinHeight;
-        float _MaxHeight;
+//        float _MinHeight;
+//      float _MaxHeight;
  
         struct Input 
         {
@@ -76,19 +76,17 @@ Shader "Cody/BestSnow"
             half sm = dot(WorldNormalVector(IN, o.Normal), _LayerDirection);
             sm = pow(0.5 * sm + 0.5, 2.0);
 
-			if (IN.worldNormal.y < _MinHeight)
-				 discard;
+//			if (IN.worldNormal.y < _MinHeight)
+//				 discard;
+
+            o.Albedo = mainDiffuse.rgb * _Color;
 
             if (sm >= lerp(1, 0, _LayerStrength))
             {
-                o.Albedo = (layerDiffuse.rgb + 0.5 * mainDiffuse.rgb) * 0.75 * _SnowColor;
+                o.Albedo = (layerDiffuse.rgb + 0.5) * 1 * _SnowColor;
                 layerNormal = UnpackNormal(tex2D(_LayerBump, IN.uv_LayerBump));
                 o.Normal = normalize(o.Normal + layerNormal);
-            }
-            else
-            {
-                o.Albedo = mainDiffuse.rgb * _Color;
-            }
+          }
        
             o.Alpha = mainDiffuse.a;
         }
