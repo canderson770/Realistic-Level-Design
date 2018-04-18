@@ -1,16 +1,23 @@
 ﻿using UnityEngine;
 using UnityEngine.Events;
 
-public class PortalCulling : MonoBehaviour
+[System.Serializable]
+public class VisibilityEvents
 {
-    public float cullingRadius = 10;
-
     public UnityEvent OnVisible;
     public UnityEvent OnNotVisible;
+}
+
+public class PortalCulling : MonoBehaviour
+{
+    public bool showInSceneView = true;
+    public float cullingRadius = 10;
+    public GameObject[] objectsToCull;
+    public VisibilityEvents events;
 
     private CullingGroup cullingGroup;
 
-    void Start ()
+    void Start()
     {
         cullingGroup = new CullingGroup();
         cullingGroup.targetCamera = Camera.main;
@@ -23,23 +30,36 @@ public class PortalCulling : MonoBehaviour
     {
         if (sphere.isVisible)
         {
-            OnVisible.Invoke();
+            foreach (GameObject obj in objectsToCull)
+            {
+                obj.SetActive(true);
+            }
+
+            events.OnVisible.Invoke();
         }
         else
         {
-            OnNotVisible.Invoke();
+            foreach (GameObject obj in objectsToCull)
+            {
+                obj.SetActive(false);
+            }
+
+            events.OnNotVisible.Invoke();
         }
     }
 
     void OnDestroy()
     {
-        if(cullingGroup != null)
+        if (cullingGroup != null)
             cullingGroup.Dispose();
     }
 
     void OnDrawGizmos()
     {
-        Gizmos.color = Color.yellow;
-        Gizmos.DrawWireSphere(transform.position, cullingRadius);
+        if (showInSceneView)
+        {
+            Gizmos.color = Color.yellow;
+            Gizmos.DrawWireSphere(transform.position, cullingRadius);
+        }
     }
 }
