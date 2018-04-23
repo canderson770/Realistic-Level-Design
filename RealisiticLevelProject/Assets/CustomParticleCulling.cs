@@ -4,6 +4,7 @@ public class CustomParticleCulling : MonoBehaviour
 {
     public float cullingRadius = 10;
     public ParticleSystem[] PS;
+    public GameObject lights;
 
     private CullingGroup m_CullingGroup;
 
@@ -23,18 +24,25 @@ public class CustomParticleCulling : MonoBehaviour
         if (sphere.isVisible)
         {
             // We could simulate forward a little here to hide that the system was not updated off-screen.
-
-            foreach (ParticleSystem ps in PS)
+            if(lights != null)
             {
-                ps.Play(true);
+                lights.SetActive(true);
             }
+//            foreach (ParticleSystem ps in PS)
+//            {
+//                ps.Play(true);
+//            }
         }
         else
         {
-            foreach (ParticleSystem ps in PS)
+            if(lights != null)
             {
-                ps.Pause();
+                lights.SetActive(false);
             }
+//            foreach (ParticleSystem ps in PS)
+//            {
+//                ps.Pause();
+//            }
         }
     }
 
