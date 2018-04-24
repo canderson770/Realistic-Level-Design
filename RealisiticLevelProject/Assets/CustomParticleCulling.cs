@@ -2,13 +2,15 @@
 
 public class CustomParticleCulling : MonoBehaviour
 {
+    public bool showInSceneView = true;
     public float cullingRadius = 10;
     public ParticleSystem[] PS;
     public GameObject lights;
 
+
     private CullingGroup m_CullingGroup;
 
-    void Start ()
+    void Start()
     {
         PS = GetComponentsInChildren<ParticleSystem>();
 
@@ -24,7 +26,7 @@ public class CustomParticleCulling : MonoBehaviour
         if (sphere.isVisible)
         {
             // We could simulate forward a little here to hide that the system was not updated off-screen.
-            if(lights != null)
+            if (lights != null)
             {
                 lights.SetActive(true);
             }
@@ -35,7 +37,7 @@ public class CustomParticleCulling : MonoBehaviour
         }
         else
         {
-            if(lights != null)
+            if (lights != null)
             {
                 lights.SetActive(false);
             }
@@ -48,14 +50,16 @@ public class CustomParticleCulling : MonoBehaviour
 
     void OnDestroy()
     {
-        if(m_CullingGroup != null)
+        if (m_CullingGroup != null)
             m_CullingGroup.Dispose();
     }
 
     void OnDrawGizmos()
     {
-        // Draw gizmos to show the culling sphere.
-        Gizmos.color = Color.yellow;
-        Gizmos.DrawWireSphere(transform.position, cullingRadius);
+        if (showInSceneView)
+        { 
+            Gizmos.color = Color.yellow;
+            Gizmos.DrawWireSphere(transform.position, cullingRadius);
+        }
     }
 }
